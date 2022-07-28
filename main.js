@@ -53,6 +53,7 @@ function game(){
       console.log(playRound(playerSelection, computerSelection));
       console.log(`Player: ${playerScore} Computer: ${computerScore}`);
   }
+  console.log(playerScore > computerScore ? 'Player Wins!': playerScore < computerScore ? 'Computer Wins!':'It\'s a Tie!');
 }
 game()
   
